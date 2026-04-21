@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: #001;
+}
+.photo{
+    display: none;
+}
+.menu{
+    background-color: #123;
+    width: 260px;
+    height: 100vh;
+    padding: 20px;
+    
+    
+}
+ul{
+    list-style: none;
+    height: 95%;
+    position: relative;
+}
+a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap:40px;
+    transition: 0.5s;
+}
+a:hover, .dsh{
+    
+    background-color: #ffffff55;
+}
+.lo{
+    position: absolute;
+    bottom: 0;
+    width: 93%;
+}
