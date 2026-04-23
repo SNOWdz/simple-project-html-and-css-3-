@@ -2,20 +2,42 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: sans-serif;
 }
 body{
     background-color: #001;
 }
 .photo{
-    display: none;
+    border: solid 3px white ;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    right: 7px;
+}
+img{
+    width: 100%;
+}
+.profile h2{
+    font-size: 20px;
+text-transform: capitalize;
 }
 .menu{
     background-color: #123;
-    width: 260px;
+    width: 60px;
     height: 100vh;
     padding: 20px;
-    
-    
+    overflow: hidden;
+    transition: 0.5s;
+}
+.menu:hover{
+    width: 260px;
+
 }
 ul{
     list-style: none;
@@ -41,4 +63,8 @@ a:hover, .dsh{
     position: absolute;
     bottom: 0;
     width: 93%;
+    background-color: #a00;
+}
+ul li a i{
+    font-size: 30px;
 }
