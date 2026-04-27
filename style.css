@@ -6,6 +6,7 @@
 }
 body{
     background-color: #001;
+    display: flex;
 }
 .photo{
     border: solid 3px white ;
@@ -29,11 +30,11 @@ text-transform: capitalize;
 }
 .menu{
     background-color: #123;
- 
+    width: 60px;
     height: 100vh;
     padding: 20px;
     overflow: hidden;
-   
+    transition: 0.5s;
 }
 .menu:hover{
     width: 260px;
@@ -49,22 +50,53 @@ a{
     text-decoration: none;
     padding: 10px;
     margin: 10px 0;
-    border-radius: 7px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     gap:40px;
     transition: 0.5s;
 }
-a:hover, .dsh{
+a:hover, .dsh, .box:hover{
     
     background-color: #ffffff55;
 }
 .lo{
     position: absolute;
     bottom: 0;
-    width: 92%;
+    width: 93%;
     background-color: #a00;
 }
 ul li a i{
     font-size: 30px;
+}
+.content{
+    width: 100%;
+    margin: 10px;
+}
+.titel-info{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 80, 146);
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.data-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    transition: 0.4s;
 }
