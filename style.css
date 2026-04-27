@@ -29,11 +29,11 @@ text-transform: capitalize;
 }
 .menu{
     background-color: #123;
-    width: 60px;
+ 
     height: 100vh;
     padding: 20px;
     overflow: hidden;
-    transition: 0.5s;
+   
 }
 .menu:hover{
     width: 260px;
