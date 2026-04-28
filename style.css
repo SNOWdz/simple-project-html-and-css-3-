@@ -97,6 +97,6 @@ ul li a i{
     height: 150px;
     flex-basis: 150px;
     flex-grow: 1;
-    border-radius: 8px;
+    border-radius: 7px;
     transition: 0.4s;
 }
