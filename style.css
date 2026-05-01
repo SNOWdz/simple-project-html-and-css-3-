@@ -87,7 +87,7 @@ ul li a i{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 11px;
 }
 .box{
     display: flex;
