@@ -63,7 +63,7 @@ a:hover, .dsh, .box:hover{
 .lo{
     position: absolute;
     bottom: 0;
-    width: 92%;
+    width: 93%;
     background-color: #a00;
 }
 ul li a i{
@@ -87,7 +87,7 @@ ul li a i{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 11px;
+    gap: 10px;
 }
 .box{
     display: flex;
@@ -97,6 +97,15 @@ ul li a i{
     height: 150px;
     flex-basis: 150px;
     flex-grow: 1;
-    border-radius: 7px;
+    border-radius: 8px;
     transition: 0.4s;
+}
+.box i{
+    font-size: 40px;
+}
+.data{
+    text-align: center;
+}
+.data span{
+    font-size: 30px;
 }
